@@ -14,9 +14,9 @@
 
 .bar {
   background-color: #ffc01e;
-  border-radius: 0.25rem 0 0 0.25rem;
-  height: 1rem;
-  width: 0.5rem;
+  border-radius: 0.26rem 0 0 0.26rem;
+  height: 1.25rem;
+  width: 0.41rem;
   /* margin: 0.5rem 0; */
   display: flex;
   display: inline-block;
