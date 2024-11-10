@@ -1,0 +1,37 @@
+.searchIcon {
+  color: #a9a9a9;
+}
+
+.text {
+  color: #ffffff;
+  font-size: 1.3rem;
+  font-weight: 300;
+  width: 70%;
+}
+
+.searchInput {
+  background-color: #282c35;
+  border: none;
+  border-radius: 8px;
+  padding: 1rem;
+  width: 16rem;
+  height: 2.5rem;
+  color: #ffffff;
+}
+
+.headerRight {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 30%;
+}
+
+.notification {
+  height: 1.5rem;
+  width: 1.5rem;
+}
+
+.photo {
+  height: 2.5rem;
+  width: 2.5rem;
+}
