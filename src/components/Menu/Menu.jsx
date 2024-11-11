@@ -4,49 +4,49 @@ import { AppstoreFilled } from "@ant-design/icons";
 import logo from "../../assets/logo.png";
 // import * as icon from "../../assets";
 import styles from "./Menu.module.css";
-import element3 from "../../assets/svg/element-3.svg";
-import presentationChart from "../../assets/svg/presention-chart.svg";
-import setting2 from "../../assets/svg/setting-2.svg";
-import sms from "../../assets/svg/sms.svg";
-import wallet2 from "../../assets/svg/wallet-2.svg";
-import walletMinus from "../../assets/svg/wallet-minus.svg";
-import user from "../../assets/svg/user.svg";
+import Element3 from "../SVG/Element3";
+import PresentationChart from "../SVG/PresentationChart";
+// import { ReactComponent as setting2 } from "../../assets/svg/setting-2.svg";
+import Setting2 from "../SVG/Setting2";
+import Sms from "../SVG/Sms";
+import WalletMinus from "../SVG/WalletMinus";
+import Wallet2 from "../SVG/Wallet2";
+import User from "../SVG/User";
 import { NavLink } from "react-router-dom";
 
 const tabs = [
   {
     name: "Dashboard",
-    icon: element3,
+    icon: Element3,
   },
   {
     name: "Transactions",
-    icon: wallet2,
+    icon: Wallet2,
   },
   {
     name: "Wallet",
-    icon: walletMinus,
+    icon: WalletMinus,
   },
   {
     name: "Analytics",
-    icon: presentationChart,
+    icon: PresentationChart,
   },
   {
     name: "Personal",
-    icon: user,
+    icon: User,
   },
   {
     name: "Message",
-    icon: sms,
+    icon: Sms,
   },
   {
     name: "Setting",
-    icon: setting2,
+    icon: Setting2,
   },
 ];
 
 const Menu = () => {
   const [activeTab, setActiveTab] = useState("Dashboard");
-  console.log(activeTab);
 
   return (
     <div className={styles.sidebar}>
@@ -58,7 +58,7 @@ const Menu = () => {
           <MenuItem
             key={tab.name}
             className={styles.menuItem}
-            icon={tab.icon}
+            Icon={tab.icon}
             name={tab.name}
             active={activeTab === tab.name}
             onClick={() => setActiveTab(tab.name)}
