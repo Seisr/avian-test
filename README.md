@@ -1,8 +1,11 @@
-The front-end is build base on the given figma size of: 1200\*853
+This front-end UI is built based on the given Figma dimensions of 1200px × 853px.
 
-How to start project:
-Run the command as follow:
+Features:
+  1. Sidebar items can change color to indicate the active items when clicked.
 
-1. git clone https://github.com/Seisr/avian-test.git
-2. npm install
-3. npm run start
+To start the project, follow these steps:
+
+  1. Run `git clone https://github.com/Seisr/avian-test.git`
+  2. Change directory to the avian-test folder
+  3. Run `npm install`
+  4. Run `npm run start`
