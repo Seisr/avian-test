@@ -26,7 +26,7 @@ const Notification = () => (
       r="2.0816"
       fill="#1FCB4F"
       stroke="#1A1C22"
-      stroke-width="0.832639"
+      strokeWidth="0.832639"
     />
   </svg>
 );

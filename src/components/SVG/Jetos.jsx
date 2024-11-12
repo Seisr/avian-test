@@ -8,7 +8,7 @@ const Jetos = () => (
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
   >
-    <g clip-path="url(#clip0_1_146)">
+    <g clipPath="url(#clip0_1_146)">
       <path
         d="M32.5406 19.5474C33.7668 24.0797 34.9912 28.0785 36.1568 32.8255L35.606 18.0026L32.5406 19.5474Z"
         fill="white"

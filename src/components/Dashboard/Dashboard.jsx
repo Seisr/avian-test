@@ -17,7 +17,14 @@ const Dashboard = () => {
   return (
     <div className={styles.dashboard}>
       {cards.map((card) => {
-        return <Card Icon={card.icon} text={card.text} amount={card.amount} />;
+        return (
+          <Card
+            key={card.text}
+            Icon={card.icon}
+            text={card.text}
+            amount={card.amount}
+          />
+        );
       })}
     </div>
   );
