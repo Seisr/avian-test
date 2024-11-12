@@ -6,5 +6,6 @@ Features:
 To start the project, follow these steps:
 
   1. Run `git clone https://github.com/Seisr/avian-test.git`
-  2. Run `npm install`
-  3. Run `npm run start`
+  2. Change directory to the avian-test folder
+  3. Run `npm install`
+  4. Run `npm run start`
