@@ -1,12 +1,11 @@
 import React from "react";
-import styles from "./Card.module.css"; // Create a CSS file with the styles
+import styles from "./Card.module.css";
 
 const Card = ({ Icon, text, amount }) => {
   return (
     <div className={styles.card}>
       <div className={styles.iconContainer}>
         <Icon className={styles.icon} />
-        {/* <img src={icon} alt="Icon" className={styles.icon} /> */}
       </div>
       <div className={styles.textContainer}>
         <p className={styles.label}>{text}</p>

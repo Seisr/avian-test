@@ -5,7 +5,7 @@ import Photo from "../SVG/Photo";
 
 const Header = () => {
   return (
-    <div className="flex justify-between items-center w-full m-5">
+    <div className={styles.header}>
       <h1 className={styles.text}>Dashboard</h1>
       <div className={styles.headerRight}>
         <input
@@ -13,9 +13,12 @@ const Header = () => {
           placeholder="Search..."
           className={styles.searchInput}
         />
-        {/* <span className={styles.searchIcon}></span> */}
-        <Notification />
-        <Photo />
+        <div className="notification">
+          <Notification />
+        </div>
+        <div className="photo">
+          <Photo />
+        </div>
       </div>
     </div>
   );

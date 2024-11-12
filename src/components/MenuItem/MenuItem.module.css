@@ -1,16 +1,12 @@
-.menuImg {
-  margin: 0 1rem 0 0;
-}
-
 .menuItem {
   display: flex;
   align-items: center;
   gap: 1rem;
   color: #a9a9a9;
-}
 
-.name {
-  display: inline-block;
+  .menuItemName {
+    font-size: 0.75rem;
+  }
 }
 
 .bar {
@@ -24,31 +20,10 @@
   display: none;
 }
 
-.menu.active .bar {
-  display: block;
-}
-
-.menu.active {
-  color: #ffffff;
-}
-
 .active {
   color: #1fcb4f;
 }
 
 .activeBar {
   display: block;
-}
-
-.name {
-  margin-left: 1rem;
-  display: inline-block;
-}
-
-.menuIcon {
-  margin-right: 1rem;
-}
-
-.menuItemName {
-  font-size: 0.75rem;
 }

@@ -48,7 +48,6 @@ const Menu = () => {
     <div className={styles.sidebar}>
       <div className={styles.logo}>
         <Jetos />
-        {/* <img src={logo} alt="logo" /> */}
       </div>
       <div className={styles.menu}>
         {tabs.map((tab) => (
