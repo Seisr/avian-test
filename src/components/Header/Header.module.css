@@ -4,12 +4,14 @@
   align-items: center;
   margin: 1.25rem 1.5625rem;
   width: 100%;
+
   .text {
     color: #ffffff;
     font-size: 1.3rem;
     font-weight: 600;
     width: 70%;
   }
+
   .headerRight {
     display: flex;
     justify-content: flex-end;
@@ -29,6 +31,7 @@
       background: #282c35 url("../../assets/svg/search-normal.svg") no-repeat
         95%;
     }
+
     .notification {
       height: 1.5rem;
       width: 1.5rem;
