@@ -1,5 +1,7 @@
 This front-end UI is built based on the given Figma dimensions of 1200px × 853px.
 
+Demo link: avian-test-sigma.vercel.app
+
 Features:
   1. Sidebar items can change color to indicate the active items when clicked.
 
