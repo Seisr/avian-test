@@ -1,8 +1,8 @@
 import React from "react";
 
-const Setting2 = ({ fill = "#A9A9A9", width = 21, height = 20 }) => (
+const Setting2 = ({ fill = "#A9A9A9" }) => (
   <svg
-    width="21"
+    width="20"
     height="20"
     viewBox="0 0 21 20"
     fill="none"

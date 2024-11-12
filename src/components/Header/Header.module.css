@@ -10,20 +10,23 @@
 }
 
 .searchInput {
-  background-color: #282c35;
   border: none;
-  border-radius: 8px;
+  border-radius: 0.41625rem;
   padding: 1rem;
-  width: 16rem;
-  height: 2.5rem;
+  width: 13.375rem;
+  height: 2.0625rem;
   color: #ffffff;
+  font-weight: 400;
+  font-size: 0.625rem;
+  background: #282c35 url("../../assets/svg/search-normal.svg") no-repeat 95%;
 }
 
 .headerRight {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
   align-items: center;
   width: 30%;
+  gap: 1.5rem;
 }
 
 .notification {
@@ -32,6 +35,6 @@
 }
 
 .photo {
-  height: 2.5rem;
-  width: 2.5rem;
+  height: 2rem;
+  width: 2rem;
 }

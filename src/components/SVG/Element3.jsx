@@ -1,9 +1,9 @@
 import React from "react";
 
-const Element3 = ({ fill = "#A9A9A9", width = 21, height = 20 }) => (
+const Element3 = ({ fill = "#A9A9A9" }) => (
   <svg
-    width="21"
-    height="21"
+    width="20"
+    height="20"
     viewBox="0 0 21 21"
     fill="none"
     xmlns="http://www.w3.org/2000/svg"

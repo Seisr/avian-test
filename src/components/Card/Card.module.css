@@ -4,9 +4,9 @@
   justify-content: space-around;
   padding: 1rem;
   background-color: #1c1c1c;
-  border-radius: 8px;
-  width: 16rem;
-  height: 8rem;
+  border-radius: 0.5rem;
+  width: 13.375rem;
+  height: 6rem;
 }
 
 .iconContainer {

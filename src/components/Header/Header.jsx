@@ -1,10 +1,7 @@
 import React from "react";
-import { Input } from "antd";
-import { SearchOutlined } from "@ant-design/icons";
 import styles from "./Header.module.css";
-import notification from "../../assets/notification.png";
-import photo from "../../assets/photo.png";
-const { Search } = Input;
+import Notification from "../SVG/Notification";
+import Photo from "../SVG/Photo";
 
 const Header = () => {
   return (
@@ -16,12 +13,9 @@ const Header = () => {
           placeholder="Search..."
           className={styles.searchInput}
         />
-        <img
-          src={notification}
-          alt="notification"
-          className={styles.notification}
-        />
-        <img src={photo} alt="photo" className={styles.photo} />
+        {/* <span className={styles.searchIcon}></span> */}
+        <Notification />
+        <Photo />
       </div>
     </div>
   );

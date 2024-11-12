@@ -3,16 +3,13 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Poppins";
-
-  /* width: 1199px; */
-  /* height: 852.62px; */
 }
 
 body {
   .container {
     display: grid;
-    grid-template-columns: 16rem 1fr;
-    grid-template-rows: 5rem 1fr;
+    grid-template-columns: 13.375rem 1fr;
+    grid-template-rows: 4.625rem 1fr;
     grid-template-areas:
       "sidebar header"
       "sidebar dashboard";

@@ -1,6 +1,6 @@
 import React from "react";
 
-const Wallet2 = ({ fill = "#A9A9A9" }) => (
+const Wallet3 = ({ fill = "#1FCB4F" }) => (
   <svg
     width="20"
     height="20"
@@ -23,4 +23,4 @@ const Wallet2 = ({ fill = "#A9A9A9" }) => (
   </svg>
 );
 
-export default Wallet2;
+export default Wallet3;

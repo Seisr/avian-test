@@ -1,18 +1,14 @@
 import React, { useState } from "react";
 import MenuItem from "../MenuItem/MenuItem";
-import { AppstoreFilled } from "@ant-design/icons";
-import logo from "../../assets/logo.png";
-// import * as icon from "../../assets";
 import styles from "./Menu.module.css";
 import Element3 from "../SVG/Element3";
 import PresentationChart from "../SVG/PresentationChart";
-// import { ReactComponent as setting2 } from "../../assets/svg/setting-2.svg";
 import Setting2 from "../SVG/Setting2";
 import Sms from "../SVG/Sms";
 import WalletMinus from "../SVG/WalletMinus";
 import Wallet2 from "../SVG/Wallet2";
 import User from "../SVG/User";
-import { NavLink } from "react-router-dom";
+import Jetos from "../SVG/Jetos";
 
 const tabs = [
   {
@@ -51,7 +47,8 @@ const Menu = () => {
   return (
     <div className={styles.sidebar}>
       <div className={styles.logo}>
-        <img src={logo} alt="logo" />
+        <Jetos />
+        {/* <img src={logo} alt="logo" /> */}
       </div>
       <div className={styles.menu}>
         {tabs.map((tab) => (
